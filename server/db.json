@@ -1,0 +1,92 @@
+{
+  "events": [
+    {
+      "userId": "USR001",
+      "name": "How to sing like Post Malone",
+      "address": "City, Province",
+      "seats": "8",
+      "bookedSeats": [
+        {
+          "id": 3,
+          "seatCode": "SEAT-003",
+          "fullName": "Syamsul Zaman",
+          "email": "thesyamsulzaman@gmail.com",
+          "isBooked": true,
+          "isAvailable": true
+        },
+        {
+          "id": 6,
+          "seatCode": "SEAT-006",
+          "fullName": "Kent C Dodd",
+          "email": "kentdodd@gmail.com",
+          "isBooked": true,
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "seatCode": "SEAT-002",
+          "fullName": "Syamsul Zaman",
+          "email": "thecardboardboyz@gmail.com",
+          "isBooked": true,
+          "isAvailable": true
+        },
+        {
+          "id": 1,
+          "seatCode": "SEAT-001",
+          "fullName": "Jennifer Carpenter",
+          "email": "jennie@gmail.com",
+          "isBooked": true,
+          "isAvailable": true
+        },
+        {
+          "id": 4,
+          "seatCode": "SEAT-004",
+          "fullName": "Dexter morgan",
+          "email": "dexie@gmail.com",
+          "isBooked": true,
+          "isAvailable": true
+        },
+        {
+          "id": 5,
+          "seatCode": "SEAT-005",
+          "fullName": "Doakes",
+          "email": "doakes@gmail.com",
+          "isBooked": true,
+          "isAvailable": true
+        },
+        {
+          "id": 7,
+          "seatCode": "SEAT-007",
+          "fullName": "Joanna",
+          "email": "j@gmail.com",
+          "isBooked": true,
+          "isAvailable": true
+        },
+        {
+          "id": 8,
+          "seatCode": "SEAT-008",
+          "fullName": "Hello World",
+          "email": "wordlie@gmai.com",
+          "isBooked": true,
+          "isAvailable": true
+        }
+      ],
+      "speakers": [
+        {
+          "name": "Post Malone",
+          "company": "lababa",
+          "website": "webcom"
+        }
+      ],
+      "schedules": [
+        {
+          "title": "have no idea",
+          "date": "Monday, 8 August 2021",
+          "startsAt": "08:00",
+          "endsAt": "13:00"
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

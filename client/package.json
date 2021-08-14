@@ -1,0 +1,47 @@
+{
+  "name": "seatbooker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^4.2.0",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-form": "^7.4.2",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "css": "postcss ./src/styles/tailwind.css -o ./src/styles/tailwind.generated.css",
+    "prestart": "npm run css",
+    "prebuild": "npm run css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "patch-package"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
