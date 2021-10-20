@@ -2,91 +2,152 @@
   "events": [
     {
       "userId": "USR001",
-      "name": "How to sing like Post Malone",
-      "address": "City, Province",
-      "seats": "8",
+      "name": "Frontend Engineering and TDD",
+      "address": "New York, California",
+      "seats": "20",
       "bookedSeats": [
         {
-          "id": 3,
-          "seatCode": "SEAT-003",
+          "id": 1,
+          "seatCode": "SEAT-001",
           "fullName": "Syamsul Zaman",
           "email": "thesyamsulzaman@gmail.com",
           "isBooked": true,
           "isAvailable": true
         },
         {
-          "id": 6,
-          "seatCode": "SEAT-006",
-          "fullName": "Kent C Dodd",
-          "email": "kentdodd@gmail.com",
-          "isBooked": true,
-          "isAvailable": true
-        },
-        {
           "id": 2,
           "seatCode": "SEAT-002",
-          "fullName": "Syamsul Zaman",
-          "email": "thecardboardboyz@gmail.com",
+          "fullName": "Kent C Dodds",
+          "email": "kentc@gmail.com",
           "isBooked": true,
           "isAvailable": true
         },
         {
-          "id": 1,
-          "seatCode": "SEAT-001",
-          "fullName": "Jennifer Carpenter",
-          "email": "jennie@gmail.com",
+          "id": 3,
+          "seatCode": "SEAT-003",
+          "fullName": "Jimmy Neutron",
+          "email": "mimi@gmail.com",
           "isBooked": true,
           "isAvailable": true
         },
         {
-          "id": 4,
-          "seatCode": "SEAT-004",
-          "fullName": "Dexter morgan",
-          "email": "dexie@gmail.com",
+          "id": 20,
+          "seatCode": "SEAT-020",
+          "fullName": "Danny Devito",
+          "email": "dev@gmail.com",
           "isBooked": true,
           "isAvailable": true
         },
         {
           "id": 5,
           "seatCode": "SEAT-005",
-          "fullName": "Doakes",
-          "email": "doakes@gmail.com",
+          "fullName": "Syamsul Zaman",
+          "email": "thesyamsulzaman@gmail.com",
+          "isBooked": true,
+          "isAvailable": true
+        },
+        {
+          "id": 10,
+          "seatCode": "SEAT-010",
+          "fullName": "jj",
+          "email": "thejj@gmail.com",
           "isBooked": true,
           "isAvailable": true
         },
         {
           "id": 7,
           "seatCode": "SEAT-007",
-          "fullName": "Joanna",
-          "email": "j@gmail.com",
-          "isBooked": true,
-          "isAvailable": true
-        },
-        {
-          "id": 8,
-          "seatCode": "SEAT-008",
-          "fullName": "Hello World",
-          "email": "wordlie@gmai.com",
+          "fullName": "Syamsul Zaman",
+          "email": "thesyamsulzaman@gmail.com",
           "isBooked": true,
           "isAvailable": true
         }
       ],
       "speakers": [
         {
-          "name": "Post Malone",
-          "company": "lababa",
-          "website": "webcom"
+          "name": "Syamsul Zaman",
+          "company": "500tech",
+          "website": "thesyamsulzaman.com"
+        },
+        {
+          "name": "Dan Abramov",
+          "company": "Google",
+          "website": "danabamov.com"
         }
       ],
       "schedules": [
         {
-          "title": "have no idea",
-          "date": "Monday, 8 August 2021",
-          "startsAt": "08:00",
-          "endsAt": "13:00"
+          "title": "Setting Up Development Enviroment",
+          "date": " Monday, 8 August 2021",
+          "startsAt": "08:00 AM",
+          "endsAt": "13:00 PM"
+        },
+        {
+          "title": "Typescript Fundamental",
+          "date": "Tuesday, 9 August 2021",
+          "startsAt": "08:00 AM",
+          "endsAt": "13:00 PM"
+        },
+        {
+          "title": "User Stories to Production",
+          "date": "Wednesday, 10 August 2021",
+          "startsAt": "08:00 AM",
+          "endsAt": "17:00 PM"
         }
       ],
       "id": 1
+    },
+    {
+      "userId": "USR001",
+      "name": "Python Microservices",
+      "address": "New York",
+      "seats": "20",
+      "bookedSeats": [],
+      "speakers": [
+        {
+          "name": "Syamsul Zaman",
+          "website": "kangodink.com",
+          "company": "KangOdink"
+        }
+      ],
+      "schedules": [
+        {
+          "title": "Setting Up Framework",
+          "date": "Monday, 8 August 2021",
+          "startsAt": "08:00 AM",
+          "endsAt": "13:00 AM"
+        },
+        {
+          "title": "Django REST Framework Architecture",
+          "date": "Tuesday, 9 August 2021",
+          "startsAt": "08:00 AM",
+          "endsAt": "13:00 PM"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": "USR001",
+      "name": "Practical Ngepet Guide",
+      "address": "Cianjur, Bikini Bottom",
+      "seats": "18",
+      "bookedSeats": [],
+      "speakers": [
+        {
+          "name": "Mbah Google",
+          "company": "Google",
+          "website": "google.com"
+        }
+      ],
+      "schedules": [
+        {
+          "title": "Setting up your Beast",
+          "date": "Monday, 8 August 2021",
+          "startsAt": "08:00 AM",
+          "endsAt": "13:00 PM"
+        }
+      ],
+      "id": 3
     }
   ]
 }
